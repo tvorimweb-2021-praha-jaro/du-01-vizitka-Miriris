@@ -1,0 +1,41 @@
+body {
+    background: url("Pozadi.JPG"), #8d7e8d; 
+    background-size: cover;
+    width: 100%;
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    line-height: 2;
+    
+}
+h1 {
+    color: #bdbdd8;
+    text-shadow: 8px 10px 2px rgba(31, 21, 21, 0.8);  
+    text-align: center;
+    margin: 0 10% 0 10%;
+    float: left;
+}
+.vpravo {
+    text-align: right;
+    margin: 30px 20% 0 10%;
+}
+
+p img {
+    width: 150px;
+    border-radius: 20px;
+    border: 2px solid rgba(31, 21, 21, 0.8);
+    overflow: auto;
+
+}
+
+p,
+footer {
+    margin: 20px 20px;
+}
+
+li {
+    margin: 0 20px; 
+}
+
+a:hover {
+    color: #550a51;
+}

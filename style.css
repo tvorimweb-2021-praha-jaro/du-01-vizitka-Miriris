@@ -1,35 +1,82 @@
+html {
+    box-sizing: border-box;
+}
+
 body {
     background: url("Pozadi.JPG"), #8d7e8d; 
-    background-size: cover;
     width: 100%;
-    margin: 0;
+    background-size: cover;
+    margin: 0 auto;
+    padding: 0;
     font-family: 'Playfair Display', serif;
     line-height: 2;
-    
+    color: rgba(8, 8, 8, 1);
 }
+
+#navigace {
+    margin: 0;
+    height: 24px;
+    background-color: rgba(31, 21, 21, 0.8);
+}
+
+nav {
+    margin: 0;
+    background-color: rgba(31, 21, 21, 0.8);
+}
+
+nav ul {
+    margin: 0;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-top: 4%;
+    padding: 2% 0;
+    line-height: 48px;
+}
+
+nav a {
+    background-color: rgba(31, 21, 21, 0.8);
+    text-decoration: none;
+    margin: inherit;
+    color: #a34267;
+}
+
+nav a:hover {
+    color: #bdbdd8;
+}
+
+nav ul li:hover, .aktivni {
+    background-color: #ca8395;
+    border: 2px solid rgba(31, 21, 21, 0.8);
+    border-radius: 10px;
+}
+
 h1 {
     color: #bdbdd8;
     text-shadow: 8px 10px 2px rgba(31, 21, 21, 0.8);  
     text-align: center;
-    margin: 0 10% 0 10%;
+    margin: 10% 10% 0 10%;
     float: left;
 }
+
 .vpravo {
     text-align: right;
-    margin: 30px 20% 0 10%;
+    margin: 0 20% 0 10%;
 }
 
-p img {
+.vpravo img {
     width: 150px;
     border-radius: 20px;
     border: 2px solid rgba(31, 21, 21, 0.8);
     overflow: auto;
-
+    margin: 10% 5% 0 5%;
 }
 
 p,
 footer {
-    margin: 20px 20px;
+    margin: 10px 20px;
 }
 
 li {
@@ -37,5 +84,18 @@ li {
 }
 
 a:hover {
-    color: #550a51;
+    color: #944090;
+}
+
+.fotogalerie img {
+    width: 24%;
+    height: auto;
+    border-radius:20px;
+    border: 1px solid #bdbdd8;
+}
+
+.ukonceni {
+    width: 250px;
+    height: 200px;
+    overflow: auto;
 }
